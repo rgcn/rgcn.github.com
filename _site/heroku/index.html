@@ -1,0 +1,95 @@
+<!doctype html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<title>Rails Girls on Heroku - Rails Girls</title>
+		<!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/code.css">
+        <link rel="stylesheet" href="/css/style.css">
+
+        <link rel="shortcut icon" href="/favicon.png">
+	</head>
+	<body>
+	    <header>
+	        <div class="container">
+    	        <a class="span3" id="logo" href="/"><img src="/img/railsgirls-guides.png" alt="Rails Girls Guides" /></a>
+                <nav>
+                </nav>
+            </div>
+	    </header>
+	    
+	    <article class="container">
+	        <div class="span10">
+		    <h1 id='put_your_app_online_with_heroku'>Put Your App Online With Heroku</h1>
+
+<p><em>Created by Terence Lee, <a href='https://twitter.com/hone02'>@hone02</a></em></p>
+
+<h3 id='get_heroku'>Get Heroku</h3>
+
+<p>Follow steps 1 through 3 of the <a href='https://devcenter.heroku.com/articles/quickstart'>quickstart guide</a> to sign up, install the toolbelt, and login.</p>
+
+<p><strong>COACH</strong>: Talk about the benefits of deploying to Heroku vs traditional servers.</p>
+
+<h3 id='preparing_your_app'>Preparing your app</h3>
+
+<h4 id='updating_our_database'>Updating our database</h4>
+
+<p>First, we need to get our database to work on Heroku, which uses a different database. Please change the following in the Gemfile:</p>
+
+<p>to</p>
+
+<p>Run <code>bundle install --without production</code> to setup your dependencies.</p>
+
+<p><strong>COACH</strong>: You can talk about RDBMS and the different ones out there.</p>
+
+<h4 id='version_control_systems'>Version Control Systems</h4>
+
+<p>We need to add our code to version control. You can do this by running the following in the terminal:</p>
+
+<p><strong>COACH</strong>: This would be a good time to talk about version control systems and git.</p>
+
+<h3 id='deploying_your_app'>Deploying your app</h3>
+
+<h4 id='app_creation'>App creation</h4>
+
+<p>We need to create our heroku app by typing <code>heroku create --stack cedar</code> in the terminal and see something like this:</p>
+
+<p>In this case &#8220;evening-sky-7498&#8221; is your app name.</p>
+
+<h4 id='pushing_the_code'>Pushing the code</h4>
+
+<p>Next we need to push our code to heroku by typing <code>git push heroku master</code>. You&#8217;ll see push output like the following:</p>
+
+<p>You&#8217;ll know the app is done being pushed, when you see the &#8220;Launching&#8230;&#8221; text like above.</p>
+
+<h4 id='migrate_database'>Migrate database</h4>
+
+<p>Next we need to migrate our database like we did locally during the workshop: <code>heroku run rake db:migrate</code></p>
+
+<p>When that command is finished being run, you can hit the app based on the url. For this example app, you can go to <a href='http://evening-sky-7498.herokuapp.com'>http://evening-sky-7498.herokuapp.com/</a>. You can also type <code>heroku open</code> in the terminal to visit the page.</p>
+		    </div>
+		</article>
+		
+		<footer>
+		    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 License</a></p>
+		    
+		    <p><a href="http://railsgirls.com">Rails Girls</a> &middot; Crafted with excitement from Helsinki, Finland &middot; Follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+		</footer>
+		<script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-19631067-3']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+	</body>
+</html>
