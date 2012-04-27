@@ -10,3 +10,7 @@ maruku:
   use_divs:   false
   png_dir:    images/latex
   png_url:    /images/latex
+
+
+#url: http://localhost:4000/railsgirls.github.com.scn/
+#baseurl: /railsgirls.github.com.scn/
