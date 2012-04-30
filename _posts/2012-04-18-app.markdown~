@@ -253,5 +253,5 @@ root :to => redirect("/ideas")
 
 ## 更多
 
-* 教程 1: [加入评论功能 作者: Janika Liiv](http://janikaliiv.eu/homework/)
-* 教程 2: [用Heroku把你的程序搬上网络 作者： Terence Lee](/heroku)
+* 教程 1: [Add commenting by Janika Liiv](http://janikaliiv.eu/homework/)
+* 教程 2: [Put your app online with Heroku by Terence Lee](/heroku)
