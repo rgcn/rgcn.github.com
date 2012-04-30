@@ -16,6 +16,17 @@ View the guides at http://guides.railsgirls.com or clone this repo and install &
 
 `bundle install`
 
+### Pygments and Code Highlighting
+
+The guides use the [pygments](http://pygments.org/) library to do syntax highlighting. If you don't have it installed you won't be able to see the highlight sections like the following:
+
+```
+{% highlight %}
+{% endhighlight %}
+```
+
+If you aren't editing the code blocks, you can safely ignore this. If you want pygments, you can follow the [install instructions](https://github.com/mojombo/jekyll/wiki/Install) in the "Pygments" section.
+
 ### Run jekyll
 
 `jekyll --server --auto`
@@ -33,11 +44,16 @@ For updates and more follow [@railsgirls](https://twitter.com/railsgirls)
 
 Official website and blog for Rails Girls movement can be found at http://railsgirls.com
 
+## E-mail list
+
+Global mailing list for Rails Girls events at http://groups.google.com/group/rails-girls-team
+
+
 ## Credits
 
 * Karri Saarinen / [@karrisaarinen](https://twitter.com/karrisaarinen) / [github](http://github.com/ksaa)
 * Linda Liukas / [@lindaliukas](https://twitter.com/lindaliukas) / [github](http://github.com/lindaliukas)
 * Vesa Vänskä / [@vesan](https://twitter.com/vesan) / [github](http://github.com/vesan)
-* Terence Lee / [@hone02](https://twitter.com/hone02) [github](http://github.com/hone)
+* Terence Lee / [@hone02](https://twitter.com/hone02) / [github](http://github.com/hone)
 
-..and all the other coaches and people making Rails Girls awesome.
+..and all the other coaches and people making Rails Girls awesome. Please add yourself!
