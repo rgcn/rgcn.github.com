@@ -10,7 +10,7 @@ permalink: contributing
 
 1. Fork [repository on github](https://github.com/railsgirls/railsgirls.github.com) ，点击 “Fork” 键。
 2. `git clone` 您刚创建的 fork。
-3. 创建一个文件，取名为 `YYYY-MM-DD-guide_name.markdown` （如：`2012-05-01-jiaocheng——gitcafe.markdown`）将它放在您的fork中的 `_posts` 目录下。
+3. 创建一个文件，取名为 `YYYY-MM-DD-guide_name.markdown` （如：`2012-05-01-jiaocheng_gitcafe.markdown`）将它放在您的fork中的 `_posts` 目录下。
 4. 在这个文件中添加一些YAML文件头，结果应该看上去像这样：{% highlight yaml %}
 ---
 layout: default

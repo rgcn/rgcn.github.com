@@ -25,13 +25,13 @@ permalink: install
 
 点击“苹果”菜单并选择“About this Mac” (图 1).
 
-![Apple menu](./images/1.png "Apple menu")
+![Apple menu](/images/1.png "Apple menu")
 
 图 1
         
  **第二步** 在这个窗口中您能看到操作系统的版本（图 2）。如果您的版本号类似于10.6或10.7，这个教程适用于您。否则的话我们需要在活动中帮助您安装。
 
-![About this Mac dialog](./images/2.png "About this Mac dialog")
+![About this Mac dialog](/images/2.png "About this Mac dialog")
 
 图 2
  
@@ -43,7 +43,7 @@ permalink: install
 
 **第四步** 安装完毕后, 打开 Terminal.app. 点击 Spotlight (右上角的放大镜图标), 键入 *Terminal.app* 并选择图示的选项 (图 3).
 
-![Spotlight](images/3.png "Spotlight")
+![Spotlight](/images/3.png "Spotlight")
 
 图 3
  
