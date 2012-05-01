@@ -1,53 +1,53 @@
 ---
 layout: default
-title: Setup recipe for Rails Girls
+title: Rails Girls的安装菜谱
 permalink: install
 ---
 
-# Setup recipe for Rails Girls
-<span class="muted">Cooking time: 5min active / 15-30min passive</span>
+# Rails Girls的安装菜谱
+<span class="muted">烹调时间: 主动状态中5分钟  / 被动状态中15-30分钟</span>
 
-To build apps and other things with Ruby on Rails, we need to setup some software and the developer environment for your computer.
+要用Ruby on Rails开发程序, 我们首先需要在我们的计算机中安装一些程序。
 
-Follow the instructions for your operating system. If you hit into any problems, don&#8217;t panic. Inform us at the event and we can solve it together.
+从下面适合您使用的操作系统的教程进行安装。如果碰到问题，不用着急，欢迎联系我们，我们可以一起来想办法。
 
-* [Setup for OS X](#setup_for_os_x)
-* [Setup for Windows](#setup_for_windows)
-* [Setup for Ubuntu](#setup_for_ubuntu)
+* [OS X下的安装指南](#setup_for_os_x)
+* [Windows下的安装指南](#setup_for_windows)
+* [Ubuntu下的安装指南](#setup_for_ubuntu)
 
 <hr />
 
 ## Setup for OS X
  
-First we need to install general tools needed to install other developer software.
+在安装开发软件之前我们需要安装一些通用软件。
 
-**Step 1.** Lets check the version of the operating system.
+**第一步** 查看操作系统的版本
 
-Click the Apple menu and choose *About this Mac* (Picture 1).
+点击“苹果”菜单并选择“About this Mac” (图 1).
 
 ![Apple menu](./images/1.png "Apple menu")
 
-Picture 1
+图 1
         
- **Step 2.** In the window you find the version of your operating system (Picture 2). If your version number starts with 10.6 or 10.7 this guide is for you. If it&#8217;s something else, we can setup your machine at the event.
+ **第二步** 在这个窗口中您能看到操作系统的版本（图 2）。如果您的版本号类似于10.6或10.7，这个教程适用于您。否则的话我们需要在活动中帮助您安装。
 
 ![About this Mac dialog](./images/2.png "About this Mac dialog")
 
-Picture 2
+图 2
  
-**Step 3.** Download and install these developer tools for OS X depending of your system version number.
+**第三步** 下载并安装以下开发程序，并注意选择对应您操作系统版本号的文件。
  
-* [Installer for 10.7](https://github.com/downloads/kennethreitz/osx-gcc-installer/GCC-10.7-v2.pkg) <span class="muted">(273Mb)</span>
+* [安装程序 10.7 版](https://github.com/downloads/kennethreitz/osx-gcc-installer/GCC-10.7-v2.pkg) <span class="muted">(273Mb)</span>
  
-* [Installer for 10.6](https://github.com/downloads/kennethreitz/osx-gcc-installer/GCC-10.6.pkg) <span class="muted">(273Mb)</span>
+* [安装程序 10.6 版](https://github.com/downloads/kennethreitz/osx-gcc-installer/GCC-10.6.pkg) <span class="muted">(273Mb)</span>
 
-**Step 4.** After the installer has run, open Terminal.app. Click the Spotlight (magnifying glass icon in the top right corner), type *Terminal.app* and click the option that appears (Picture 3).
+**第四步** 安装完毕后, 打开 Terminal.app. 点击 Spotlight (右上角的放大镜图标), 键入 *Terminal.app* 并选择图示的选项 (图 3).
 
 ![Spotlight](images/3.png "Spotlight")
 
-Picture 3
+图 3
  
-**Step 5.** Now copy and paste this line in the Terminal and press Enter. Enjoy the text flying on the screen, it will take quite some time (approximately 30 minutes). The installer might ask for your administrator password. Grabbing a refreshing drink before starting is encouraged!
+**第五步** 现在复制以下代码并粘贴到Teriminal中，敲回车键。膜拜屏幕上飞过的字符，这恐怕要花好一会功夫，差不多30分钟（琳达，是你的Macbook Air太慢了吧？）。安装程序可能中途要提示您输入管理员密码。现在请给自己准备一份提神的饮料吧，一会儿见！
 
 {% highlight sh %}
 bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/rails-install-osx.sh)
@@ -55,34 +55,33 @@ bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/r
         
  ![You've done it](images/complete.png "You've done it")
 
-Now if everything went right, you should have a working Ruby on Rails programming setup. Congrats!
+如果一切顺利，我们现在应该拥有一个完备的Ruby on Rails编程环境啦，祝贺你！
         
-**Final step.** Install a text editor to edit code files. For the workshop we recommend the free code editor Komodo Edit.
+**最后一步** 安装用于编辑代码文件的文本编辑器。在本工作室环境下我们推荐使用免费软件Komodo Edit。
 
-* [Download Komodo Edit and install it.](http://www.activestate.com/komodo-edit/downloads)
+* [下载 Komodo Edit 并安装它。](http://www.activestate.com/komodo-edit/downloads)
 
 <hr />
 
 ## Setup for Windows
  
-Download [RailsInstaller](http://rubyforge.org/frs/download.php/75346/railsinstaller-2.0.0.exe) and run it. Click through the installer using the default options.
+下载 [Rails安装程序](http://rubyforge.org/frs/download.php/75346/railsinstaller-2.0.0.exe) 并运行它。一路点击默认选项即可完成安装。
  
-You also need a text editor to edit code files. For the workshop we recommend the free code editor Komodo Edit.
+您还需要用于编辑代码文件的文本编辑器。在本工作室环境下我们推荐使用免费软件Komodo Edit。
 
-* [Download the Komodo Edit and install it.](http://www.activestate.com/komodo-edit/downloads)
+* [下载 Komodo Edit 并安装它。](http://www.activestate.com/komodo-edit/downloads)
  
-Now you should have a working Ruby on Rails programming setup. Congrats!
+我们现在应该拥有一个完备的Ruby on Rails编程环境啦，祝贺你！
 
 <hr />
 
 ## Setup for Ubuntu
 
-To install Ruby on Rails development environment you just need to copy and paste this line in the Terminal and press Enter. Enjoy the text flying on the screen, it will take quite some time. Grabbing a refreshing drink before starting is encouraged.
+请复制以下代码并粘贴到控制台中，敲回车键。欣赏屏幕上飞过的字符，这恐怕要花好一会功夫。安装程序可能中途要提示您输入管理员密码。现在请给自己准备一份提神的饮料吧，一会儿见！
  
 {% highlight sh %}
 bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
 {% endhighlight %} 
+您还需要用于编辑代码文件的文本编辑器。在本工作室环境下我们推荐使用免费软件Komodo Edit。
 
-You also need a text editor to edit code files. For the workshop we recommend the free code editor Komodo Edit.
-
-* [Download Komodo Edit and install it.](http://www.activestate.com/komodo-edit/downloads)
+* [下载 Komodo Edit 并安装它。](http://www.activestate.com/komodo-edit/downloads)
