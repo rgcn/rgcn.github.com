@@ -4,27 +4,26 @@ title: Rails Girls on Heroku
 permalink: heroku
 ---
 
-# Put Your App Online With Heroku
+# 利用Heroku将你的程序部署到网络上
 
-*Created by Terence Lee, [@hone02](https://twitter.com/hone02)*
+*作者： Terence Lee, [@hone02](https://twitter.com/hone02)*
 
-### Get Heroku
+### 下载Heroku
 
-Follow steps 1 through 3 of the [quickstart guide](https://devcenter.heroku.com/articles/quickstart) to sign up, install the toolbelt, and login.
+参照 [quickstart guide](https://devcenter.heroku.com/articles/quickstart) 的三个步骤，注册，安装toolbelt，并登录。
 
-__COACH__: Talk about the benefits of deploying to Heroku vs traditional servers.
+__教练__: 谈谈部署到Heroku相对于传统主机托管服务的优越性。
 
-### Preparing your app
+### 准备好你自己的程序
 
-#### Updating our database
+#### 更新我们的数据库
 
-First, we need to get our database to work on Heroku, which uses a different database. Please change the following in the Gemfile:
-
+首先，由于Heroku使用PostgreSQL而不是SQLite，我们需要修改Gemfile才能使数据库在Heroku上运行。请修改以下代码：
 {% highlight ruby %}
 gem 'sqlite3'
 {% endhighlight %}
 
-to
+将它改为：
 
 {% highlight ruby %}
 group :development do
@@ -35,13 +34,13 @@ group :production do
 end
 {% endhighlight %}
 
-Run `bundle install --without production` to setup your dependencies.
+运行 `bundle install --without production` 来加载程序所依赖的库。
 
-__COACH__: You can talk about RDBMS and the different ones out there.
+__教练__: 请谈谈RDBMS，并举几个具体的例子。
 
-#### Version Control Systems
+#### 版本控制系统（Version Control Systems）
 
-We need to add our code to version control. You can do this by running the following in the terminal:
+我们需要把代码加入版本控制系统中去。您可以在控制台中运行：
 
 {% highlight sh %}
 git init
@@ -49,14 +48,14 @@ git add .
 git commit -m "initial commit"
 {% endhighlight %}
 
-__COACH__: This would be a good time to talk about version control systems and git.
+__教练__: 现在该是时候谈谈版本控制系统和git了。
 
 
-### Deploying your app
+### 部署你的程序
 
-#### App creation
+#### 创建Heroku App
 
-We need to create our heroku app by typing `heroku create --stack cedar` in the terminal and see something like this:
+我们需要创建一个Heroku App，在控制台中键入 `heroku create --stack cedar` ，得到如下输出：
 
 {% highlight sh %}
 Creating evening-sky-7498... done, stack is cedar
@@ -64,11 +63,11 @@ http://evening-sky-7498.herokuapp.com/ | git@heroku.com:evening-sky-7498.git
 Git remote heroku added
 {% endhighlight %}
 
-In this case "evening-sky-7498" is your app name.
+在这个例子中 "evening-sky-7498" 是你的Heroku App的名字
 
-#### Pushing the code
+#### Push您的代码
 
-Next we need to push our code to heroku by typing `git push heroku master`. You'll see push output like the following:
+接下来我们需要把代码push到Heroku上，键入 `git push heroku master`. 您将看到以下输出：
 
 {% highlight sh %}
 Counting objects: 134, done.
@@ -87,11 +86,11 @@ Total 134 (delta 26), reused 0 (delta 0)
        http://evening-sky-7498.herokuapp.com deployed to Heroku
 {% endhighlight %}
 
-You'll know the app is done being pushed, when you see the "Launching..." text like above.
+当您看到“Launching...”这一行文本的时候，我们就知道程序已经被push完毕了。
 
-#### Migrate database
+#### 移植数据库
 
-Next we need to migrate our database like we did locally during the workshop: `heroku run rake db:migrate`
+接下来我们需要移植（migrate）数据库，就像在工作室中练习过的一样： `heroku run rake db:migrate`
 
-When that command is finished being run, you can hit the app based on the url. For this example app, you can go to [http://evening-sky-7498.herokuapp.com/](http://evening-sky-7498.herokuapp.com). You can also type `heroku open` in the terminal to visit the page.
+指令执行完毕后，您就可以用上面生成的URL访问您的程序了，在本例中，URL是： [http://evening-sky-7498.herokuapp.com/](http://evening-sky-7498.herokuapp.com). 也可以在控制台中键入 `heroku open` ，这会直接用您默认的浏览器打开以上URL。
 
