@@ -1,0 +1,257 @@
+---
+layout: default
+title: Rails Girls App Tutorial
+permalink: app
+---
+
+# Rails Girls 应用程序(App)教程
+
+*原作者 Vesa Vänskä, [@vesan](https://twitter.com/vesan)*
+
+      
+请确认您已经完成了[**安装Rails**](/install)这个步骤
+
+
+## 0: 基本工具软件
+
+* 任意文本编辑器(例如Komodo Edit，Ultraedit甚至记事本，保存时编码请选择UTF-8而不是GBK/GB2132) ，用来编辑代码和文件。
+* 终端或者又称命令行、控制台甚至命令提示符（这里翻译将用“控制台”），用来启动Rails服务器和运行指令。
+* 浏览器，用来预览你的程序。
+
+
+## 1: 创建一个应用程序
+
+我们现在来创建一个名为railsgirls的应用程序。
+
+打开控制台/终端/DOS提示符（以下称“控制台”）:
+
+* OS X: 打开Spotlight，键入Terminal并选择显示出来的命令行图标。
+* Windows: 点击开始菜单并搜索*Command Prompt*，点击*Command Prompt with Ruby on Rails*；或者使用Win-R也就是按住Windown图标键的同时键入R，然后键入cmd后回车。
+* Linux: 使用Alt-F2调出运行窗口，键入gnome-terminal或konsole。
+
+键入指令：
+
+{% highlight sh %}
+mkdir projects
+cd projects
+rails new railsgirls
+cd railsgirls
+rails s
+{% endhighlight %}
+
+在浏览器中打开 [http://localhost:3000](http://localhost:3000)。
+
+在控制台中键入CTRL-C 可以退出服务。
+
+**教练:** 请解释每一步指令的含义，以及我们刚刚生成了什么（哪些文件）？ Rails服务是做什么用的？ 并介绍MVC。
+
+
+## 2: 创建一个名为idea的Scaffold
+
+我们使用Rails的scaffold来创建一个模板，在此基础上我们可以对数据进行列出、加入、删除、修改和预览等操作，这里的数据指的是我们的ideas。
+
+{% highlight sh %}
+rails generate scaffold idea name:string description:text picture:string
+rake db:migrate
+rails s
+{% endhighlight %}
+
+在浏览器中打开 [http://localhost:3000/ideas](http://localhost:3000/ideas)。
+
+探索一下你的网页然后CTRL-C 退出服务。
+
+**教练:** 什么是scaffold，什么是migration。
+
+
+## 3: 设计
+
+网页的外观设计还有待我们动手改进。用Twitter的Bootstrap项目，我们可以轻松的生成网页的stylesheet
+
+打开app/views/layouts/application.html.erb 找到这一行
+
+{% highlight erb %}
+<%= stylesheet_link_tag "application" %>
+{% endhighlight %}
+
+并在它上面加入以下代码
+
+{% highlight erb %}
+<link rel="stylesheet" href="http://railsgirls.com/assets/bootstrap.css">
+{% endhighlight %}
+
+然后把
+
+{% highlight erb %}
+<%= yield %>
+{% endhighlight %}
+
+换成
+
+{% highlight erb %}
+<div class="container">
+    <%= yield %>
+</div>
+{% endhighlight %}
+
+现在我们对ideas表格添加页眉、页脚和格式。
+
+找到这个文件 application.html.erb，在`<body>`下添加：
+
+{% highlight html %}
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="/">The Idea app</a>
+            <ul class="nav">
+                <li class="active"><a href="/ideas">Ideas</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endhighlight %}
+
+并在`</body>`之上添加：
+
+{% highlight html %}
+<footer>
+    <div class="container">
+        Rails Girls 2012
+    </div>
+</footer>
+{% endhighlight %}
+
+打开文件 app/assets/stylesheets/application.css 并在最底端添加：
+
+{% highlight css %}
+#logo { 
+    font-size: 20px;
+    font-family: &quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;
+    float: left;
+    padding: 10px;
+}
+body { padding-top: 100px; }
+footer { margin-top: 100px; }
+table, td, th { vertical-align: middle !important; border: none !important; }
+th { border-bottom: 1px solid #DDD !important; }
+td.picture { width: 140px; }
+td.picture img { width: 140px; }
+{% endhighlight %}
+
+**教练:** 请解释CSS和layouts。
+
+
+## 4: 添加图片上传功能
+
+为了实现图片上传功能我们需要安装额外的库（libraries）。
+
+打开文件 Gemfile 并找到这一行
+
+{% highlight ruby %}
+gem 'carrierwave'
+{% endhighlight %}
+
+在它下面添加
+
+{% highlight ruby %}
+gem 'sqlite3'
+{% endhighlight %}
+
+**教练:** 请解释什么是库(libraries)以及为什么需要使用它们。不妨也聊聊开源？
+
+现在我们来生成主管图片上传的代码，打开控制台并键入：
+
+{% highlight sh %}
+bundle
+rails generate uploader Picture
+{% endhighlight %}
+
+打开 app/models/idea.rb 找到这一行：
+
+{% highlight ruby %}
+mount_uploader :picture, PictureUploader
+{% endhighlight %}
+
+并在下方添加：
+
+{% highlight ruby %}
+class Idea < ActiveRecord::Base
+{% endhighlight %}
+
+打开 app/views/ideas/_form.html.erb ，找到这一行：
+
+{% highlight erb %}
+<%= f.text_field :picture %>
+{% endhighlight %}
+
+将它改成：
+
+{% highlight erb %}
+<%= f.file_field :picture %>
+{% endhighlight %}
+
+并将这一行：
+
+{% highlight erb %}
+<%= form_for(@idea) do |f| %>
+{% endhighlight %}
+
+改成：
+
+{% highlight erb %}
+<%= form_for(@idea, :html => {:multipart => true}) do |f| %>
+{% endhighlight %}
+
+我们的view还是不够耐看，因为它只显示文件路径。我们可以这么改进：
+
+打开 app/views/ideas/show.html.erb 并将
+
+{% highlight erb %}
+<%= @idea.picture %>
+{% endhighlight %}
+
+改为
+
+{% highlight erb %}
+<%= image_tag(@idea.picture_url, :width => 600) if @idea.picture.present? %>
+{% endhighlight %}
+
+**教练:** 聊聊HTML。
+
+
+## 5: 微调路径（Routes）
+
+如果你试图打开 [http://localhost:3000](http://localhost:3000) 看到的还是默认的页面，我们需要把它重定向到ideas页面。
+
+在 OS X 或 Linux 下，在控制台下运行:
+
+{% highlight sh %}
+rm public/index.html
+{% endhighlight %}
+
+在 Windows 下，在控制台下运行：
+
+{% highlight bat %}
+del public\index.html
+{% endhighlight %}
+
+然后打开 config/routes.rb 并在第二行加入以下代码：
+
+{% highlight ruby %}
+root :to => redirect("/ideas")
+{% endhighlight %}
+
+**教练:** 请谈谈Routes。
+
+
+## 下来呢?
+
+* 改进HTML/CSS设计
+* 加入评分系统（Ratings）
+* 用 CoffeeScript（或 JavaScript）增加互动性
+* 加入缩略图支持，从而使图片加载更快
+      
+
+## 更多
+
+* 教程 1: [加入评论功能 作者: Janika Liiv](http://janikaliiv.eu/homework/)
+* 教程 2: [用Heroku把你的程序搬上网络 作者： Terence Lee](/heroku)

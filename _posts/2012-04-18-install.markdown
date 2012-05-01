@@ -1,0 +1,87 @@
+---
+layout: default
+title: Rails Girls的安装菜谱
+permalink: install
+---
+
+# Rails Girls的安装菜谱
+<span class="muted">烹调时间: 主动状态中5分钟  / 被动状态中15-30分钟</span>
+
+要用Ruby on Rails开发程序, 我们首先需要在我们的计算机中安装一些程序。
+
+从下面适合您使用的操作系统的教程进行安装。如果碰到问题，不用着急，欢迎联系我们，我们可以一起来想办法。
+
+* [OS X下的安装指南](#setup_for_os_x)
+* [Windows下的安装指南](#setup_for_windows)
+* [Ubuntu下的安装指南](#setup_for_ubuntu)
+
+<hr />
+
+## Setup for OS X
+ 
+在安装开发软件之前我们需要安装一些通用软件。
+
+**第一步** 查看操作系统的版本
+
+点击“苹果”菜单并选择“About this Mac” (图 1).
+
+![Apple menu](./images/1.png "Apple menu")
+
+图 1
+        
+ **第二步** 在这个窗口中您能看到操作系统的版本（图 2）。如果您的版本号类似于10.6或10.7，这个教程适用于您。否则的话我们需要在活动中帮助您安装。
+
+![About this Mac dialog](./images/2.png "About this Mac dialog")
+
+图 2
+ 
+**第三步** 下载并安装以下开发程序，并注意选择对应您操作系统版本号的文件。
+ 
+* [安装程序 10.7 版](https://github.com/downloads/kennethreitz/osx-gcc-installer/GCC-10.7-v2.pkg) <span class="muted">(273Mb)</span>
+ 
+* [安装程序 10.6 版](https://github.com/downloads/kennethreitz/osx-gcc-installer/GCC-10.6.pkg) <span class="muted">(273Mb)</span>
+
+**第四步** 安装完毕后, 打开 Terminal.app. 点击 Spotlight (右上角的放大镜图标), 键入 *Terminal.app* 并选择图示的选项 (图 3).
+
+![Spotlight](images/3.png "Spotlight")
+
+图 3
+ 
+**第五步** 现在复制以下代码并粘贴到Teriminal中，敲回车键。膜拜屏幕上飞过的字符，这恐怕要花好一会功夫，差不多30分钟（琳达，是你的Macbook Air太慢了吧？）。安装程序可能中途要提示您输入管理员密码。现在请给自己准备一份提神的饮料吧，一会儿见！
+
+{% highlight sh %}
+bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/rails-install-osx.sh)
+{% endhighlight %} 
+        
+ ![You've done it](images/complete.png "You've done it")
+
+如果一切顺利，我们现在应该拥有一个完备的Ruby on Rails编程环境啦，祝贺你！
+        
+**最后一步** 安装用于编辑代码文件的文本编辑器。在本工作室环境下我们推荐使用免费软件Komodo Edit。
+
+* [下载 Komodo Edit 并安装它。](http://www.activestate.com/komodo-edit/downloads)
+
+<hr />
+
+## Setup for Windows
+ 
+下载 [Rails安装程序](http://rubyforge.org/frs/download.php/75346/railsinstaller-2.0.0.exe) 并运行它。一路点击默认选项即可完成安装。
+ 
+您还需要用于编辑代码文件的文本编辑器。在本工作室环境下我们推荐使用免费软件Komodo Edit。
+
+* [下载 Komodo Edit 并安装它。](http://www.activestate.com/komodo-edit/downloads)
+ 
+我们现在应该拥有一个完备的Ruby on Rails编程环境啦，祝贺你！
+
+<hr />
+
+## Setup for Ubuntu
+
+请复制以下代码并粘贴到控制台中，敲回车键。欣赏屏幕上飞过的字符，这恐怕要花好一会功夫。安装程序可能中途要提示您输入管理员密码。现在请给自己准备一份提神的饮料吧，一会儿见！
+ 
+{% highlight sh %}
+bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
+{% endhighlight %} 
+您还需要用于编辑代码文件的文本编辑器。在本工作室环境下我们推荐使用免费软件Komodo Edit。
+
+* [下载 Komodo Edit 并安装它。](http://www.activestate.com/komodo-edit/downloads)
