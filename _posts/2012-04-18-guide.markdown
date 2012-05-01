@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Guides
+title: 教程
 permalink: guide
 ---
 
@@ -101,210 +101,210 @@ Rails Girls 活动是非盈利性的。我们不收取任何费用，也不会�
 + [Bentobox slidedeck](http://speakerdeck.com/u/railsgirls/p/rails-girls-bentobox-exercise)
 + [Instruction video](http://vimeo.com/39049632)
 
-14:30 - 18:00 Workshop time. 
+14:30 - 18:00 工作室时间： 
 
-Time to continue working on the applications. Monitor the situation: when it seems like people have a hard time concentrating, have the coaches or other speakers give quick lightning talks. 
+到了继续开发程序的时间了。关注会场气氛：如果大家看上去仍然难以集中注意力的话，让教练或其他与会者做一些简短的演讲（lighting talks）。
 
-Example topics for lighting talks: 
-+ Real (female) programmers telling what their career has been like.
-+ Design: UX & UI. Making mockups together either with paper or computer. 
-+ Fun ways of explaining technical concepts and recent frameworks: what is CoffeeScript explained in 80s pop songs? How would you describe GitHub? What coding and creative writing have in common?
-+ Show us something real: don’t speak in abstractions, be specific and tell stories.
+演讲的题目可以如下（但不仅限于这些）：
++ 女性职业程序员谈谈在这个行业中工作的体会。
++ 设计：用户体验和界面（UX & UI），在纸上或计算机上制作一些示范程序（mockups）。
++ 用有趣的方式介绍热门的技术概念和框架（frameworks）：用80年代经典老歌解释 CoffeeScript ？ 或者Github？编程和文学有什么共通之处？
++ 展示一些实在的东西：最好不要空泛，具体一些，讲述真实的故事。
 
-Once everyone has finished their app, there is time to extend the application by modifying the CSS, implementing commenting systems etc. Allow enough time for experimentation. 
+在大家都制作完程序之后，花一些时间让大家尝试修改CSS，加入评论系统等等。
 
-19:00 After party
-*Hint:*
-Invite everyone, also the local developers, boys, those who weren't accepted, to join! 
+19:00 散伙晚会（afterparty）
+*提示:*
+邀请所有人，如本地的业界人士、包括男士以及未被选中的女孩参加！
 
-[Fork this project on GitHub][github], add yourself, and send us a pull request.
+[Fork 这个 GitHub 项目][github], 加入我们的团队, 向我们发送一条 pull request。
 
 [self]: http://guides.railsgirls.com/ "The Rails Girls Guide"
 [github]: https://github.com/railsgirls/railsgirls.github.com "Fork on GitHub"
 
-#### Materials
+#### 材料
 
-* Programming 101 slides
-* Bentobox exercise
+* 编程 101 slides
+* “弁当” 练习
 
-### Promotion of Rails Girls
+### 推广Rails Girls
 
-Every Rails Girls workshop will get a custom website at railsgirls.com/city where the information is collected and then stored. For past cities, see [railsgirls.com/events](railsgirls.com/events)
+每次 Rails Girls 活动都将在主站上得到一个专属的页面，链接如同railsgirls.com/city，用于记录和存储活动中的信息，如照片、幻灯片等。过去活动主办城市的页面可以在这里访问： [railsgirls.com/events](railsgirls.com/events)
 
-While the event is underway, remember to take pictures, collect tweets and ask questions of the participants. We love to write blog posts about the speaker and participant experiences. A list of the coaches is also required.
+当活动进行中时，请记住拍下照片，记录tweets和微博，采访与会者的体会。另外请保留教练的名单。
 
-#### How to find local developers?
+#### 怎样找到本地的软件开发者/程序员呢？
 
-* Google. Almost every country has some sort of a Rails or Ruby community (sometimes called Ruby Brigade or Ruby Tuesday). Look for [Hackernews](http://news.ycombinator.com) meetups, [GitHub](http://www.github.com) contributors or [Dribbble](http://dribbble) draftees. Find the local open source scene. Surf the technology conferences (here's [a list](http://rubythere.com/) of Ruby-themed ones, but others are cool too) and meetups at [meetup.com](http://www.meetup.com). Call software development houses, big and small. Don't forget IRC and podcasts!
+* Google。几乎每个国家都有Rails或Ruby的社区（有的可能叫“Ruby Brigade”，或“Ruby Tuesday”）。注意 [Hackernews](http://news.ycombinator.com) 聚会, [GitHub](http://www.github.com) 成员或 [Dribbble](http://dribbble) 起草人等。搜索本地开源社区。参加Ruby主题的会议 (比如 [这些](http://rubythere.com/) 等等，或不仅限于Ruby) ，和 [meetup.com](http://www.meetup.com) 上相关的聚会。致电软件公司，不论大小。别忘了IRC和podcasts! 
 
-* Check out hashtags like #rails #ruby and #opensource from [Twitter search](https://twitter.com/#!/search-home). To find people from, say, close to NYC, use the following search operators "near:NYC within:15mi". Some countries have specific hashtags like #Rubysur and #RubyArg they use, remember to ask!
+* 利用  [Twitter search](https://twitter.com/#!/search-home) 或微博的 “#” 标签 比如 #rails #ruby 和 #开源，要在纽约市附近找人， 可用这个字串搜索 "near:NYC within:15mi"。有的国家也许有独特的标签如 #Rubysur and #RubyArg ，请教当地高人便知！
 
-* Startup community. Startup Digest is a good beginning point for events and communities.
+* 创业社区。Startup Digest 是一个不错的例子。
 
-* Often there are one or two key people who will be able to introduce you further. The technology world is surprisingly connected.
+* 有时找对了人的话，一两个重要人物（中文：意见领袖）可以助你一臂之力。技术世界中互联的程度是惊人的。
 
-#### How to find participants?
+#### 怎样找到与会女孩呢？
 
-* Use social media: Facebook, Twitter & local networks such as Weibo. Friends, girlfriends, co-workers!
+* 用社交网络：Facebook，Twitter或本地服务如微博。朋友、女友和同事！
 
-* Local [Girls in Tech](https://twitter.com/#!/gitweet), [DevChix](http://www.devchix.com/), [Geek Girl](http://geekgirlmeetup.com/) chapters etc. Check out also [Meetup.com](http://www.meetup.com/). Twitter lists like @anitaborg's [Tech Women Programs](https://twitter.com/#!/anitaborg_org/tech-women-programs) and similar.
+* 本地社区如 [Girls in Tech](https://twitter.com/#!/gitweet), [DevChix](http://www.devchix.com/), [Geek Girl](http://geekgirlmeetup.com/) 等、 [Meetup.com](http://www.meetup.com/)、 Twitter lists 比如 @anitaborg 的 [Tech Women Programs](https://twitter.com/#!/anitaborg_org/tech-women-programs)。
 
-* Think outside the box: universities, book clubs, music stores, design agencies, [Etsy](http://www.etsy.com). We want girls who are interested in technology, but they can still have very varied backgrounds.
+* 发散思维：大学、书友会、唱片店、设计工作室、 [Etsy](http://www.etsy.com)。我们想找到对技术感兴趣的女孩，但是她们可能来自各行各业。 
 
-#### How to get press?
+#### 怎样得到媒体关注？
 
-One of the big aims of Rails Girls is to make it more mainstream for girls to build the web. That’s why we like to engage the local press and highlight the participants and their enthusiasm. We’d be happy to help prepare a press-release for the media. Check out [railsgirls.com/press](http://railsgirls.com/press) for more.
+Rails Girls 的重要目标之一就是让女孩成为建设网络的主力军。所以我们要接触本地媒体，用我们与会的女孩的精神感染他们。我们要积极帮助媒体准备新闻稿。详情请参见 [railsgirls.com/press](http://railsgirls.com/press)。
 
-### Sponsorships
+### 赞助商
 
-Rails Girls talks to a demographic that might be hard to reach other ways: women who have an interest in technology, who are possible users, employees or partners of the sponsoring company.
+Rails Girls 面向的是一个不易在其他场合结识的人群：对技术感兴趣的女孩，她们也可能是潜在赞助商的用户、雇员或合伙人。
 
-We are looking for sponsors who are active participants in the local technology scene, whether it’s a startup or a big corporation, a non-profit or a government organization.
+我们要找的赞助商应该是本地技术行业的活跃分子，无论是刚起步的小公司（startup）或大企业，非盈利性组织或政府部门。
 
-Also non-traditional technology companies can be approached: kids stores, universities, women's magazines, beverage brands etc. They all should however have some affiliation or interest in technology. 
+另外也可以接触非传统的企业如：儿童用品商店、大学、女性杂志、饮料公司等。他们也可能会对技术感兴趣。
 
-Rails Girls should always be kept non-profit: if there's money left, it should be used to support the future activities of the attendees.
+Rails Girls 必须是非盈利性的：如果还有剩余经费，要为支持与会者将来的后续活动所用。
 
-### How much does it cost? 
+### 开销
 
-The costs below are estimated for 30 participants, 10 coaches - but they may vary a lot. It's easiest to try to get a local sponsor to pay the bills directly or partner with someone who has a set account to handle money. These calculations are done in Finland, in €, where food & alcohol is very expensive, but spaces are often free. All in all you should be able to organise an event easily for a little over a thousand euros.  				
+以下开销是根据30位与会女孩、10位教练的标准粗略估计的，实际情况可能相去甚远。单位是欧元，以芬兰的物价为标准。在芬兰，食物和酒精饮料非常昂贵，但是常常可以找到免费的场地。大体而言1000欧元多一点应该可以应付整个活动的开销。
 
-+ **Sparkling wine + cups** for the installation festival. 6 bottles, 6 euros a bottle. 36 euros. 
++ **汽酒和杯子** 用于安装晚会。6瓶酒，6元一瓶。36元。 
 
-+ **Breakfast Coffee**, pastry. 40 times around 5 euros. 200 euros
++ **早饭，咖啡，糕点** 5元 x 40。 200元。
 
-+ **Lunch.** Catered lunch can be around 15 euros, but you can do with a lot less by cooking yourself.  Add some water and coffee (50 euros). 650 euros. 		
++ **午饭** 外卖可能要 15，但自己做就便宜得多。再加一些水和咖啡（50元）。650元 。 		
 
-+ **Marketing materials.** Printing workbooks, ordering stickers, posters and other swag. Again, varies a lot, maybe you can use someones printer, but at least around 200 should be reserved.
++ **材料** 打印讲义，购买贴纸、海报和纪念品等。最好是能借用别人的打印机，但还是要准备花大约200元。
 
-+ **Coach dinner.** At a restaurant or homemade. A way to say thank you to the coaches for their volunteer work. Around 20 euros per head. 200 euros. 		
++ **教练的晚餐** 在饭店或者自制。这也是一种对教练表示感谢的姿态。约20元/人。 200元。 		
 
-+ **Space.** Try to get this one sponsored/free, they can be really expensive. Often startups are co-operative and can offer their space for use (esp. on weekends).	0 - XXXX euros. 
++ **场地** 尽量找免费/赞助的，可能会很昂贵。有的创业公司经常会提供免费场地（如周末）。0 - XXXX  元。 
 
-+ **Afterparty.** It's nice if you can throw a good party with free beverages, but can also be done low-key in a local bar or on set/ in the park!	0 - XXXX euros. 	
++ **散伙晚会** 如果能办一个酒水免费的聚会最好，或者也可以在本地的酒吧甚至公园里低调举行。0 - XXXX 元。 	
 
-+ **Travel expenses.**	If you don't have any RG-team members in your country, consider inviting us over. We don't need fancy hotels, promise! Same if you want to invite speakers to your event. 	0 - XXX		
++ **差旅费**	如果在本国没有RG团队成员，也可以请我们参加。我们一定不要求住大酒店！请我们演讲也是一样。0 - XXX 元。
 
-+ *Total 1286 euros*.
++ *总共 1286 欧元*.
 
-__What do sponsors get?__
+__赞助商能得到什么？__
 
-* Logo on event website
-* Table space at event, opportunity to distribute handouts and/or swag
-* A chance to speak to attendees for 5 minutes
-* In most events there are official pictures taken that the sponsors can use afterwards
+* 会场上的商标
+* 在活动中设工作台，分发广告及/或纪念品
+* 5分钟的演讲
+* 获得官方授权使用活动中的照片
 
-Don’t give out the participant info, but sponsors are free to hang out at the event and be sure to include a short message to the sponsor in a thank-you note. Sponsor swag may be included in the goodie bag to an extent, but it should be something tasteful, not trashy and related to girls.
+不要把与会者信息交给赞助商，但是赞助商可以自由参加活动，还要记得鸣谢他们。赞助商的纪念品可以里一同递给与会者，但是这些纪念品应该有格调、不落俗套、符合女孩们的审美。
 
 ---
 
 ## FAQ
 
-#### Who can organise a Rails Girls workshop?
+#### 谁可以主办Rails Girls活动？
 
-Anyone. What we look for is a group of people dedicated in making this a stellar first experience in the world of web making for girls. What we hope to see is some (not all) of the following:
+任何人。我们要找的是愿意下工夫把女孩带进网络开发世界的人。我们希望结识（不用全都有）这样的人：
 
-* Contacts to the local developer scene. We are pretty technology agnostic, so it doesn’t have to be purely Ruby & Rails people. In practice every event needs 5 or more coaches that have basic knowledge of Rails and two days to contribute. In general the events have been around 25 - 40 people strong.
-* Event organisation know-how. Nt heaps, but some practicalities under the belt.
-* An inkling of an idea where to look for girls interested in technology. University, literature, arts, sports - we try to look for people who are interested in Internet, but do not have experience in coding.
-* Willingness to guide the girls in the future if they have questions or want to organize their own events or find local developer gatherings.
+* 和本地软件业联系紧密。我们并不强调某一门技术，所以不用是纯Ruby或Rails开发者。实际上每次活动都需要5名或更多的有Rails经验的教练，每人牺牲两天的时间。大体上每次活动有25-40人参加。
+* 组织经验丰富。不需要超级有经验，但至少有一些经验。
+* 能贡献一些怎样找到对技术感兴趣的女孩的主意。大学、文学、艺术、体育，我们要找的是对互联网感兴趣，但没有编程经验的人。
+* 将来有女孩想组织她们自己的RG或其他开发者聚会活动，或者遇到问题时，能够伸出援手的人。
 
-Start by filling out [railsgirls.com/inyourcity](http://railsgirls.com/inyourcity) and someone from our team will be in contact
+填写这个表格 [railsgirls.com/inyourcity](http://railsgirls.com/inyourcity) 我们团队成员就会主动联系您。
 
 
-#### What kind of venue is needed?
+#### 什么样的场合适合举办活动？
 
-We recommend choosing a venue with a built-in infrastructure for around 30-50 persons. For a programming event, this means:
-* High-speed, tested Internet. There’s going to be over 30 computers online all the time. Add to that mobilephones, streaming music, funny videos and you get the picture!
-* Space for 4-6 person groups to gather together: chairs and tables, sometimes big pillows will do! This doesn’t have to be in the same room.
-* Possibility to set up extension chords and a projector.
-* Location for food and beverage setup - lunch space for catering or a nearby lunch venue.
-* External monitors for teams are encouraged but not mandatory, helps the coaches show what is happening in the code.
+我们推荐能容纳30-50人的场地。对于一个编程主题的活动来说，应该满足：
+* 经过测试，高速、稳定的互联网（译者：由于哪些网站可以在中国访问的不确定性，最好有VPN）。将有30台计算机同时在线，加上手机、在线点歌、视频，对网络的考验可想而知！
+* 有条件让4-6人的小组在一起工作：桌椅，有时很大的枕头也可以！可以分散在多个房间里。
+* 可以提供延长线和投影仪。
+* 有空间享用食物和饮料，专门用午餐的空间，也可以在附近。
+* 不必强求，但最好有外接显示器，对于教练讲解代码很有用。
 
-Ask where local developer meetings are usually hosted. Often co-working spaces are also willing to negotiate deals to gain some visibility among new people.
+询问本地开发者会议都在哪里举行。会所常常也会愿意提供场所，以增加他们自己的知名度。
 
-#### What is expected from the coaches?
+#### 对教练有哪些要求呢？
 
-Rails Girls events are organized around small groups, ideally maximum of 4-5 persons per one coach. The coaches don’t need to be hardcore experts on Rails - basic knowledge and willingness to explain trumps expertise. We are looking for people who like answering questions and can keep an upbeat and positive atmosphere through a period of 8 hours!
+Rails Girls活动主要是以小组形式展开的，理想中的是4-5人/教练。教练不用是Rails专家，有基本的知识即可，积极性比专业知识更重要。我们想要的是能够回答问题，乐观向上，能够维持场面8小时的人！
 
-You can get to know the curriculum by checking out [railsgirls.com/app](http://railsgirls.com/app). There is also always a pre-event coach dinner where we’ll go through some pedagogical suggestions and check everyone knows what is happening. Avoid jargon, tie examples to what your doing, encourage asking questions. The installation instructions can be found at [railsgirls.com/install](http://railsgirls.com/install)
+您可以在这里预览教程 [railsgirls.com/app](http://railsgirls.com/app)。我们总要组织一个活动前的教练晚饭，便于讨论教学建议，确保每位教练了解具体情况。安装教程在这里 [railsgirls.com/install](http://railsgirls.com/install)
 
-We hope the coaches are ok with having their name and twitter-id/github/some mean of contact on railsgirls.com so the girls always have a local face to answer their questions.
+我们希望教练们愿意公开他们的twitter/github/微博用户名，或其他联系方式，好与我们团队保持联系，让与会的女孩遇到问题能方便地在本地找到答案。
 
-In addition, we encourage coaches to come up with additional exercises for the group. After completing the ideation app many girls will want to try tweaking the look & feel of the site, implementing commenting, Facebook sharing, pushing the app to Heroku etc. We have some plans to include these coach-planned mini-lectures in the site as well.
+另外，我们鼓励教练们不吝赐教，建议更多的编程练习。在完成ideation程序之后，很多女孩还想修改她们网站的外观、加入评论、Facebook分享、部署到Heroku等等。我们还准备在网站上加入教练自创的迷你课程。
 
-* Want to become a Rails Girls coach?
-* Letter for the coaches
+* 您想成为Rails Girls教练吗？
+* 给教练的信
 
-#### What materials do I get?
+#### 我能得到什么材料？
 
-Each Rails Girls event gets a specific webpage.
+每次Rails Girls活动可以得到一个专属的网页。
 
-In addition we’ll help you out with the goodie bags, poster templates, workbooks and other swag like stickers, reflectors and so forward. All of the materials can be found on this site. You can also ask the sponsors to include some sponsor materials if they wish. We are always looking for creative outlets for the Rails Girls brand, if you have ideas, let us know!
+另外我们会帮您设计礼包、海报模板、讲义和其他纪念品性质的贴纸、反光贴等等。所有材料都可以在官方网站上找到。您还可以问赞助商是否有意分发他们的纪念品。我们当然愿意看到有创造性的Rails Girls分支，如果您有好主意，请和我们分享！
 
-So far we've had
+目前为止我们已经有这些纪念品：
 
-* Stickers
-* Reflectors
-* Tattoos
+* 贴纸
+* 反光贴
+* 纹身（！）
 
-#### How do I choose attendees?
+#### 怎样挑选与会女孩名单
 
-In the form we ask only two questions: do you have any previous background in coding and why would you be a good participant for Rails Girls
+我们的申请单中只有两个问题：你有编程经验吗？以及为什么你是一个好Rails Girls？
 
-Rails Girls is intended for anyone and we want to keep it flexible enough for learners any age. However, make clear to the attendees what to expect: Rails Girls won’t make anyone into a coder, so people looking for i.e career change will be disappointed. On the other hand we like people with very diverse backgrounds and loads of enthusiasm.
+Rails Girls 是为所有人设计的，我们想让它适用于所有年龄段的学员。然而，我们要向与会成员解释清楚：RG不会把任何人变成一名程序员，因此，想转行的人会感到失望的。另外，我们喜欢背景多元化的、有积极性的女孩。
 
-After selecting participants we generally split them into three groups:
+在完成挑选后我们把与会者分成三类：
 
-1. people with no previous programming experience
-2. people with some front-end experience (HTML, CSS, Javascript) and
-3. people with a little experience in programming or a background in computer sciences. You can use the different name-tags for each group if you want to (rubies, foxes, octocats, rails..)
+1. 没有编程经验的
+2. 有前端开发经验的（HTML, CSS, Javascript）
+3. 有少许编程或计算机科学经验的
+可以用在姓名牌上加标签的方式来表示每位女孩的分类，如（rubies, foxes, octocats, rails..）
 
-#### What happens after the event?
+#### 活动结束以后做什么呢？
 
-Inviting real developers to coach is Rails Girls sessions not only gives the participants a chance for hands-on education, but also makes the barrier to enter the technology world lower. How to keep the girls coding?
+邀请真正的开发者来做教练的意义在于，不仅与会者们可以获得第一手的知识，而且也降低了她们进入技术世界的门槛。怎样让女孩们继续编程呢？
 
-* Encourage them to continue practicing by trying different exercises like Codecademy and such.
-* Mention at least two forthcoming developer events where the local coaches will be. Try to get the girls to attend actual developer meetups
-* Invite everyone to the Facebook Group where they can ask questions.
-* Invite the girls together again within a month. You can host these meetups at the Rails Girls global meetup page http://www.meetup.com/Rails-Girls/ - we’ll be happy to promote events. However, it doesn't matter under which brand you want to continue meeting - the important thing'
+* 鼓励她们继续练习，比如说使用Codecademy等。
+* 提两个近期将要举行的开发者活动，让她们有机会深入接触更多本地的开发者。
+* 邀请每个人加入Facebook群组，让她们有机会发问。
+* 在一个月之内再次邀请与会者参加一次聚会。你可以在 Rails Girls 全球 meetup http://www.meetup.com/Rails-Girls/ 上组织聚会。我们将很高兴帮助您扩散。然而，用什么名义（Rails Girls或者其他）组织活动并不重要。
 
 ---
 
-## Checklist
+## 备忘录
 
-This is a small checklist for your event. Rails Girls can be thrown together in a matter of weeks, but to truly have time to make a good event, prepare at least two months. Not all of these steps are of course mandatory and they are here just to help you remember.
+以下是一个小小的备忘录。Rails Girls可以在几周内准备完毕，但是要组织一次真正成功的活动，准备花大约两个月的时间。不是所有以下步骤都是必要的，这些只是用来帮助你记忆的。
 
-### Before the event:
+### 活动前
 
-* Fill in the [application](railsgirls.com/inyourcity) and the team will contact you!
-* Start working with the project plan template on Google Docs
-* Decide dates and set a venue
-* Reach out for the local coaches - try finding five people who commit to taking part
-* Release the website: write the copy and suggest a theme
-  1. Dates and location.
-  2. Application deadlines.
-  3. Short introductory text, around 200 characters. Check out the past events for inspiration!
-  4. Speakers of the day
-  5. Partners - a two parapgraph sentence and a logo (100 x 100px or 250 x 90px and in png format)
-  6. Coaches with twitter-handle
+* 填申请表 [application](railsgirls.com/inyourcity) ，等我们联系您！
+* 在Google Docs里准备一个项目计划（project plan）模板。（译者注：建议阅读怎样做一个好的project plan，参考项目管理业界标准 Project Management Body of Knowledge）
+* 确定日期和场地
+* 寻找当地教练，试着找到至少5名有意加入的教练
+* 发布网站，确定主题
+  1. 日期和场地
+  2. 申请截止日期
+  3. 简短的介绍，约200英文单词左右的信息量。可以参考以往的活动！
+  4. 演讲者名单
+  5. 合作单位，每一个用一句话概括，并添加一个图标 (100 x 100像素 or 250 x 90像素 png 格式)
+  6. 教练，和他们的Twitter/微博用户名
+* 开始扩散活动信息
+* 开始寻找赞助商
+* 接洽媒体，写新闻稿
+* 给被选中或落选的申请人发邮件
+* 把安装教程和活动详情以邮件发出
+* 确定教练晚餐时间，向他们发送教程
 
-* Start marketing the event
-* Start looking for sponsors
-* Reach out for press and write a pre-event story
-* E-mail accepted participants and non-accepted applicants
-* E-mail installation instructions and last minute event details
-* Set a date for coach dinner and send them instructions
+#### 活动中
 
-#### During the event
+* Tweet/Weibo！
+* 拍照
+* 采访与会女孩，问她们的体会
 
-* Tweet!
-* Remember to take photos
-* Interview participants and speakers about their experiences
+#### 活动后
 
-#### After the event
-
-* Update website to include pictures and possible blogposts
-* Invite participants to [Facebook group](http://www.facebook.com/groups/railsgirls/)
-* Send a thank you note to participants
-* Send a thank you note for organizers
+* 继续更新网页，加入图片和与会者的博文
+* 邀请大家加入我们的 [Facebook 群组](http://www.facebook.com/groups/railsgirls/)
+* 向与会者致谢
+* 向组织者致谢
