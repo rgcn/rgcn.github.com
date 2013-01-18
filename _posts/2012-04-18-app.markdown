@@ -168,13 +168,13 @@ rails generate uploader Picture
 打开 app/models/idea.rb 找到这一行：
 
 {% highlight ruby %}
-mount_uploader :picture, PictureUploader
+class Idea < ActiveRecord::Base
 {% endhighlight %}
 
-并在下方添加：
+并在其下方添加：
 
 {% highlight ruby %}
-class Idea < ActiveRecord::Base
+mount_uploader :picture, PictureUploader
 {% endhighlight %}
 
 打开 app/views/ideas/_form.html.erb ，找到这一行：
