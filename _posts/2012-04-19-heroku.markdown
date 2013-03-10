@@ -88,9 +88,9 @@ Total 134 (delta 26), reused 0 (delta 0)
 
 当您看到“Launching...”这一行文本的时候，我们就知道程序已经被push完毕了。
 
-#### 移植数据库
+#### 迁移数据库
 
-接下来我们需要移植（migrate）数据库，就像在工作室中练习过的一样： `heroku run rake db:migrate`
+接下来我们需要迁移（migrate）数据库，就像在工作室中练习过的一样： `heroku run rake db:migrate`
 
 指令执行完毕后，您就可以用上面生成的URL访问您的程序了，在本例中，URL是： [http://evening-sky-7498.herokuapp.com/](http://evening-sky-7498.herokuapp.com). 也可以在控制台中键入 `heroku open` ，这会直接用您默认的浏览器打开以上URL。
 
