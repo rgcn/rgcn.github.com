@@ -147,13 +147,13 @@ td.picture img { width: 140px; }
 打开文件 Gemfile 并找到这一行
 
 {% highlight ruby %}
-gem 'carrierwave'
+gem 'sqlite3'
 {% endhighlight %}
 
 在它下面添加
 
 {% highlight ruby %}
-gem 'sqlite3'
+gem 'carrierwave'
 {% endhighlight %}
 
 **教练:** 请解释什么是库(libraries)以及为什么需要使用它们。不妨也聊聊开源？
